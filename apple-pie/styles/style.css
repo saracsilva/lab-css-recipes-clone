@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
+  vertical-align: middle;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mainTitle {
+  display: flex;
+  background-image: url("/apple-pie/images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  align-items: center;
+  padding: 50px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.titles {
+  padding: 20px 0;
+}
+p {
+  padding: 30px 0;
+}
+h1 {
+  padding-top: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #ffffff;
+}
+.container {
+  font-size: 1.2em;
+  padding: 50px 50px 50px 100px;
+}
+.recipe {
+  margin-left: auto;
+  padding-left: 50px;
+}
+.images {
+  padding: 30px 0px 30px 200px;
+
+  width: 400px;
+  align-items: center;
+}
